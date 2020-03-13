@@ -2,7 +2,50 @@
     WHAT TODO LIST CSS
    -------------------- */
 
+#todoListWrapper {
+    width: 960px;
+    text-align: center;
+}
 
+#todoList:after {
+    clear: both;
+    display: table;
+    content: "";
+}
 
+ul {
+    width: 14.28%;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+li {
+    background: none;
+    padding: 5px;
+    border: none;
+    margin: 0;
+    text-align: left;
+    font-size: 12px;
+}
+
+li:hover {
+    background: #eee;
+}
+
+.listTitle {
+    background: #444;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    border-right: solid 1px white;
+    font-size: 14px;
+}
+
+listTitle:hover,
+listTitle:active {
+    cursor: default;
+    transform: none;
+}
 
 
