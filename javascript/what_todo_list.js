@@ -1,6 +1,7 @@
 // WHAT TODO LIST JS
 
-$("todoList").sortable({
+
+$("#todoList").sortable({
     items: "li:not('.listTitle, .addItem')",
     connectWith: "ul",
     dropOnEmpty: true,
@@ -12,5 +13,5 @@ $("input").keydown(function(e) {
         var item = $(this).val();
         
         $(this).parent().parent().append("<li>" + item + "</li>");
-    }
+    };
 });

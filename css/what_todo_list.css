@@ -100,7 +100,7 @@ ul {
 }
 
 #todoList li.addItem input {
-    width: 86px;
+    width: 90%;
     padding: 4px;
 }
 
