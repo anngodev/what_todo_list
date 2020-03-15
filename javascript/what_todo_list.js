@@ -16,4 +16,10 @@ $("input").keydown(function(e) {
         $(this).val("");
         };
     });
+    
+    $("#trash").droppable({
+        drop: function(event, ui) {
+            ui.draggable.remove();
+        }
+    });
 });
