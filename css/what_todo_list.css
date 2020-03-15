@@ -57,7 +57,7 @@ ul {
 #todoList li {
     background: none;
     padding: 5px;
-    border: none;
+    border: solid 1px #eee;
     margin: 0;
     text-align: left;
     font-size: 12px;
